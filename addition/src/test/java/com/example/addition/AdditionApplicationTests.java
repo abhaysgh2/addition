@@ -20,4 +20,14 @@ class AdditionApplicationTests {
 
     }
 
+    @Test
+    void testAddition2() {
+        Integer a = 1;
+        Integer b = 2;
+        Addition add = new Addition();
+        Integer additionResult = add.addition(a,b);
+        Assertions.assertNotEquals(5,additionResult);
+
+    }
+
 }
